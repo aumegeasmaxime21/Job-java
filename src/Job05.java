@@ -13,17 +13,6 @@ public class Job05 {
                 if (isPrime) {
                     System.out.println(a);
                 }
-
-
-
-
-
-
-
-
-
-
-
         }
     }
 }
