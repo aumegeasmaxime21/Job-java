@@ -1,17 +1,18 @@
 public class Job05 {
     public static void main(String[] args) {
 
-        for (int i = 1; i <= 1000; i++) {
+        for (int a = 1; a <= 1000; a++) {
 
-            double sqrt = Math. sqrt(i);
-            boolean a =(0 == (sqrt % sqrt));
-            boolean b =(1 == (sqrt % 2));
-
-            if (a && b) {
-                System.out.println(i);
-            }
-
-
+                boolean isPrime = true;
+                for (int i = 2; i < a; i++) {
+                    if (a % i == 0) {
+                        isPrime = false;
+                        break;
+                    }
+                }
+                if (isPrime) {
+                    System.out.println(a);
+                }
 
 
 
