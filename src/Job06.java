@@ -12,5 +12,4 @@ public class Job06 {
             }
         }
     }
-// pas reussi seul
-// erreur de placement de println
+
